@@ -60,7 +60,7 @@ const CheckoutSideMenu = () => {
                     <span className="font-medium text-2xl">${totalPrice(context.cartProducts)}</span>
                 </p>
                 <Link to='/my-orders/last'> {/*Con esta linea es hacia donde vamos a necesitar esta redirección */}
-                    <button className="w-full bg-black py-3 text-white rounded-lg" onClick={() => handleCheckout()}>Checkout</button>
+                    <button className="w-full bg-blue-700 py-3 text-white rounded-lg" onClick={() => handleCheckout()}>Checkout</button>
                 </Link>
 
             </div>

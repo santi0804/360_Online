@@ -26,7 +26,7 @@ const Card = (data) => {
 
             return (
                 <div
-                    className="absolute top-0  right-0 flex justify-center items-center bg-green-500 w-6 h-6 rounded-full m-2 p-1">
+                    className="absolute top-0  right-0 flex justify-center items-center bg-blue-700 w-6 h-6 rounded-full m-2 p-1">
                     <CheckIcon className="size-6 text-white"></CheckIcon> {/*Este es el icono Chulito verde con su lògica */}
                 </div>
             )
